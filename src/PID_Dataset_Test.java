@@ -139,7 +139,8 @@ public class PID_Dataset_Test {
             p8 = 0.007;
             w8 = 100;
         }
-        p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8* 0.359*w1*w2*w3*w4*w5*w6*w7*w8;
+        //p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8* 0.4*w1*w2*w3*w4*w5*w6*w7*w8;
+        p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8* 0.4;
         return p;
     }
     private static double no_probability(double num1, double num2, double num3, double num4, double num5, double num6, double num7, double num8)
@@ -250,7 +251,8 @@ public class PID_Dataset_Test {
         else{
             p8 = 0.0;
             w8 = 0;}
-        p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8*0.651*w1*w2*w3*w4*w5*w6*w7*w8;
+        //p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8*0.6*w1*w2*w3*w4*w5*w6*w7*w8;
+        p = p1 * p2 * p3 * p4 * p5 * p6 *p7*p8*0.6;
         return p;
     }
 	public static void test (int test_number)throws NumberFormatException, IOException {		
